@@ -1,0 +1,311 @@
+body {
+   
+      background-image: url(./pages/home/img/fundo2.png); 
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import url('https://fonts.googleapis.com/css2family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    max-width: 20vw;
+    height: 100vh;
+    padding: 10px;
+  
+}
+.he {
+    width: 15vw;
+    height: 100%;
+    padding: 10px;
+   
+}
+.menuzinho {
+    height: 100%;
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+ .navegation ul{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap: 105px;
+    margin-bottom: 60px;
+    /* margin-top: 500px;
+    margin-right: 150px; */
+
+}
+
+/* .home{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 800px;
+    margin: 50px;
+}
+.servico{
+    position: absolute;
+    display: flex;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin: 50px;
+}
+.contato{
+    position: absolute;
+    display: flex;
+    margin-right: 150px;
+    margin-top: 700px;
+    margin: 50px;
+    
+} */
+
+/* li{
+    
+    display: flex;
+    flex-direction: column;
+} */
+
+h1{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    bottom: 600px;
+}
+h2{
+    color: #4a1aea;
+    margin-bottom: 1000px;
+    width: 100%;
+    height: auto;
+
+    /* line-height: 2.5em;
+    font-weight: 70; */
+}
+
+.pagServicos{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    bottom: 800px;
+}
+div .distance{
+    /* margin-top:250px; */
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* margin-right: 150px; */
+}
+.distance .circulo1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4a1aea;
+    margin-left: 10%;
+    display: flex;
+    margin: 50px;
+}
+.distance .circulo2{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4a1aea;
+    margin-left: 10%;
+    display: flex;
+    margin: 50px;
+    
+}
+.distance .circulo3{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4a1aea;
+    margin-left: 10%;
+    display: flex;
+    margin: 50px;
+    
+}
+
+
+header{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+    padding: 30px 170px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+
+}
+
+
+header .navegation ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+header .navegation li{
+    
+    list-style: none;
+    
+}
+header .navegation li a{
+    color: #4a1aea;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;   
+    flex-direction: column;
+}
+
+
+
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+
+
+
+
+.icons{
+    position: absolute;
+    bottom: 40px;
+    left: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 90vh;
+    
+
+}
+.icons li{
+    list-style: none;
+}
+.icons li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(255, 254, 254);
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+.icons li a:hover{
+    background: #4a1aea;
+    transform: translateY(-10px);
+}
+
+.navegation :hover{
+    color: #000000;
+    
+    
+
+}
+.sectionForm{
+    text-align: center;
+    margin-left: 840px;
+}
+form {
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.897);
+    padding: 30px 25px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-left-color: blue;
+    border-right-color: crimson;
+    border-top-color: blueviolet;
+    border-bottom-color: blueviolet;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+}
+form {
+    overflow: hidden;
+    animation: fade 0.2s;
+    display: flex;
+    bottom: 420px;
+    
+}
+
+
+
+form .input-block input {
+    width: 100%;
+    display: block;
+    padding: 7px;
+    font-size: 16px;
+    color: #4a1aea;
+    outline-color: #4a1aea;
+    border-color: rgb(119, 0, 255);
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    
+}
+input {
+    background-color: rgba(255, 255, 255, 0.784);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form .logar {
+    display: block;
+    min-width: 120px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 7px;
+    background-color: rgb(119, 0, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: var(--cor-neon);
+}
