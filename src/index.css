@@ -87,7 +87,29 @@ section{
 } */
 
 h1{
-    position: absolute;
+    position: absolute
+    ;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    bottom: 700px;
+}
+
+/* h1 {
+    animation: neon 3s alternate infinite ease-in-out;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: rgb(119, 0, 255);
+} */
+h2{
+    position: absolute
+    ;
     color: #fff;
     width: 100%;
     height: auto;
@@ -95,7 +117,7 @@ h1{
     align-items: center;
     bottom: 600px;
 }
-h2{
+/* h2{
     color: #4a1aea;
     margin-bottom: 1000px;
     width: 100%;
@@ -103,7 +125,7 @@ h2{
 
     /* line-height: 2.5em;
     font-weight: 70; */
-}
+ */
 
 .pagServicos{
     position: absolute;
@@ -112,7 +134,25 @@ h2{
     height: auto;
     text-align: center;
     align-items: center;
-    bottom: 800px;
+    bottom: 700px;
+}
+.pagServicos2{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    bottom: 500px;
+}
+.pagContato{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    bottom: 600px;
 }
 div .distance{
     /* margin-top:250px; */
@@ -299,13 +339,56 @@ input {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-form .logar {
-    display: block;
-    min-width: 120px;
-    border-radius: 25px;
-    margin: auto;
-    padding: 7px;
-    background-color: rgb(119, 0, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-color: var(--cor-neon);
+
+form .input-block:nth-child(1) {
+    animation: move 500ms;
+}
+
+form .input-block:nth-child(2) {
+    animation: move 400ms;
+    animation-delay: 100ms;
+    animation-fill-mode: backwards;
+}
+header .Home:nth-child(1) {
+    animation: move 500ms;
+}
+
+header .servico:nth-child(2) {
+    animation: move 400ms;
+    animation-delay: 200ms;
+    animation-fill-mode: backwards;
+}
+header .contato:nth-child(3) {
+    animation: move 400ms;
+    animation-delay: 400ms;
+    animation-fill-mode: backwards;
+}
+h2 :nth-child(1){
+    overflow: hidden;
+    animation: fade 0.2s;
+    animation: move 300ms;
+    animation-fill-mode: backwards;
+   
+}
+
+@keyframes move {
+    from {
+        opacity: 0;
+        transform: translateX(-35%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }

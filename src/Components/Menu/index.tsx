@@ -17,14 +17,14 @@ export const Menu = () => {
             <div className="menuzinho">
                 <nav className="navegation">
                         <ul>
-                            <li className="home">
+                            <li className="Home">
                             <Link  to= '/'>Home</Link>
                             </li>
                             <li className="servico">
-                                <Link to='servicos'>Serviços</Link>
+                                <Link to='Servicos'>Serviços</Link>
                             </li>
                             <li className="contato">
-                                <Link to='contatos'>Contatos</Link>
+                                <Link to='Contatos'>Contatos</Link>
                             </li>
                         </ul>
                         </nav>
@@ -66,6 +66,66 @@ export const Menu = () => {
         </>
     );
 }
+//animation
+//  export const squares = (){
+//     return( <>
+        
+//     const ulSquares = document.querySelector("ul.squares");
+
+// for (let i = 0; i < 11; i++) {
+//     const li = document.createElement("li");
+
+//     const random = (min, max) => Math.random() * (max - min)
+
+//     const size = Math.floor(random(10, 120));
+//     const position = random(1, 99)
+//     const delay = random(5, 0.1)
+//     const duration = random(24, 12)
+
+//     li.style.width = `${size}px`;
+//     li.style.height = `${size}px`;
+//     li.style.bottom = `-${size}px`;
+
+//     li.style.left = `${position}%`;
+
+//     li.style.animationDelay = `${delay}s`;
+//     li.style.animationDuration = `${duration}s`;
+
+//     ulSquares.appendChild(li);
+//     </>
+// )
+// }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/* <section>
         <header>
             

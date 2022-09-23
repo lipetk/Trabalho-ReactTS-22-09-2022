@@ -2,10 +2,10 @@ import React from 'react';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Menu } from './Components/Menu/index';
-import { Contatos } from './pages/contato';
+import { Contatos } from './pages/Contato';
 
-import { Home } from './pages/home';
-import { Servicos } from './pages/servico';
+import { Home } from './pages/Home';
+import { Servicos } from './pages/Servico';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
     <Menu />
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/contatos' element={<Contatos/>} />
-        <Route path='/servicos' element={<Servicos/>} />
+        <Route path='/Contatos' element={<Contatos/>} />
+        <Route path='/Servicos' element={<Servicos/>} />
       </Routes>
     </BrowserRouter>
     </>

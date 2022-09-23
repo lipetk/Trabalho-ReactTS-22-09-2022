@@ -2,7 +2,7 @@ import React from 'react';
 // import 'index.css';
 export const Contatos = ()=>{
     return(
-       <> <h1 className=''>Página de Contatos</h1>
+       <> <h1 className='pagContato'>Página de Contatos</h1>
 
         
         <div className="sectionForm">
